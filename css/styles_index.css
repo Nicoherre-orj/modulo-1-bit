@@ -1,0 +1,115 @@
+body {
+  background-color: #f3e5d8;
+  
+}
+#navegador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  
+}
+#explorar {
+  display: flex;
+}
+
+button {
+  height: 20px;
+  border-radius: 10px;
+}
+#oscuro {
+  background-color: white;
+  color: #7e4333;
+  width: 15px;
+  height: 15px;
+}
+
+#fondo {
+  background-image: url(../image/hero.jpg);
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+#DatosPreparacion {
+  background-color: rgb(244, 225, 229);
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+section {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.titulos {
+  color: #7e4333;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+p {
+  margin: 0px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+.instrucciones {
+  list-style-type: decimal;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  height: 15px;
+}
+#aside {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+table {
+  list-style-type: none;
+}
+td {
+  border-bottom: 1px solid #734333;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+#nutricion {
+  text-align: end;
+}
+.RecetasExtras{
+  max-height: 200px;
+  max-width: 200px;
+  display: inline-flex;
+  justify-content: left;
+}
+.TextoAside{
+  display: inline-flex;
+  flex-direction: column;
+  
+}
+h3{
+  display: inline-flex;
+  margin: 0px;
+}
