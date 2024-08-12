@@ -1,0 +1,130 @@
+#navegador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  height: 20px;
+}
+#explorar {
+  display: flex;
+}
+button {
+  height: 20px;
+  border-radius: 10px;
+}
+#oscuro {
+  background-color: white;
+  color: #7e4333;
+  width: 15px;
+  height: 15px;
+}
+
+p {
+  margin: 0px;
+  font-family: "DM Sans", sans-serif;
+}
+#fondo {
+  background-image: url(../image/hero.jpg);
+  color: white;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  height: 245px;
+  padding: 20px;
+  font-size: xx-large;
+}
+.titulos {
+  color: #7e4333;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-size: x-large;
+}
+body {
+  background-color: #f3e5d8;
+  display: grid;
+  grid-template-columns: 25px 1fr 1fr 1fr 25px;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 100px;
+}
+nav {
+  grid-area: 1/1/1/6;
+}
+#presentacion {
+  grid-area: 2/2/4/5;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  height: 20px;
+}
+
+footer {
+  grid-area: 9/1/9/9;
+}
+main {
+  grid-area: 2/2/5/5;
+}
+#receta1 {
+    
+  grid-area: 2/3/3/4;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+margin: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#receta2{
+    grid-area:3/3/4/4;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+  margin: 10px;
+}
+/*#receta3{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+  margin: 10px;
+}
+#receta4{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+  margin: 10px;
+}
+#receta5{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+  margin: 10px;
+}
+#receta6{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+  margin: 10px;
+}
