@@ -1,3 +1,6 @@
+body{
+    background-color: #f3e5d8;
+}
 #navegador {
   display: flex;
   flex-direction: row;
@@ -20,111 +23,188 @@ button {
   color: #7e4333;
   width: 15px;
   height: 15px;
+} 
+#fondo {
+    background-image: url(../image/hero.jpg);
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    height: 245px;
+    padding: 20px;
+    font-size: xx-large;
 }
-
+.titulos{
+    color: #7e4333;
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-size: large;
+}
 p {
   margin: 0px;
   font-family: "DM Sans", sans-serif;
 }
-#fondo {
-  background-image: url(../image/hero.jpg);
-  color: white;
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 5px;
-  height: 245px;
-  padding: 20px;
-  font-size: xx-large;
-}
-.titulos {
-  color: #7e4333;
-  font-family: "DM Serif Display", serif;
-  font-style: normal;
-  font-size: x-large;
-}
-body {
-  background-color: #f3e5d8;
-  display: grid;
-  grid-template-columns: 25px 1fr 1fr 1fr 25px;
-  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 100px;
-}
-nav {
-  grid-area: 1/1/1/6;
-}
-#presentacion {
-  grid-area: 2/2/4/5;
-}
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #255538;
-  padding: 10px;
-  border-radius: 4px;
-  color: white;
-  height: 20px;
-}
 
-footer {
-  grid-area: 9/1/9/9;
-}
-main {
-  grid-area: 2/2/5/5;
-}
-#receta1 {
-    
-  grid-area: 2/3/3/4;
+@media screen and (max-width:600px) {
+  #body {
+    display: grid;
+    grid-template-columns: 25px 1fr 1fr 25px;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px;
+  }
+ }
+ #presentacion {
+  grid-area: 2/2/3/4;
+ }
+ nav {
+  grid-area: 1/1/1/5;
+ }
+ footer {
+  grid-area: 7/1/7/7;
+ }
+ #receta1 {
+  grid-area: 3/2/3/3;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
   max-width: 280px;
   max-height: 280px;
-margin: 10px;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-#receta2{
-    grid-area:3/3/4/4;
+  margin: 10px;
+ }
+
+ #receta2 {
+  grid-area: 3/3/4/4;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 10px;
+ }
+ #receta3 {
+  grid-area: 4/2/5/3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 10px;
+ }
+ #receta4 {
+  grid-area: 4/3/5/4;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 10px;
+ }
+ #receta5 {
+  grid-area: 5/2/6/3;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 10px;
+ }
+ #receta6 {
+  grid-area: 5/3/6/4;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 10px;
+ }
+
+  #body {
+    background-color: #f3e5d8;
+    display: grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 25px;
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+  }
+  nav {
+    grid-area: 1/1/1/6;
+  }
+  #presentacion {
+    grid-area: 2/2/3/5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #255538;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    height: 20px;
+  }
+
+  footer {
+    grid-area: 6/1/6/6;
+  }
+  main {
+    grid-area: 2/2/5/5;
+  }
+  #receta1 {
+    grid-area: 3/2/3/4;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 280px;
     max-height: 280px;
-  margin: 10px;
-}
-/*#receta3{
+    margin: 10px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #receta2 {
+    grid-area: 3/3/4/4;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 280px;
     max-height: 280px;
-  margin: 10px;
-}
-#receta4{
+    margin: 10px;
+  }
+  #receta3 {
+    grid-area: 3/4/4/5;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 280px;
     max-height: 280px;
-  margin: 10px;
-}
-#receta5{
+    margin: 10px;
+  }
+  #receta4 {
+    grid-area: 4/2/5/3;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 280px;
     max-height: 280px;
-  margin: 10px;
-}
-#receta6{
+    margin: 10px;
+  }
+  #receta5 {
+    grid-area: 4/3/5/5;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     max-width: 280px;
     max-height: 280px;
-  margin: 10px;
-}
+    margin: 10px;
+  }
+  #receta6 {
+    grid-area: 4/4/5/6;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 280px;
+    max-height: 280px;
+    margin: 10px;
+  }
